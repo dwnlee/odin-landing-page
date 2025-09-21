@@ -1,4 +1,4 @@
-# Odin Landing Page
+# Landing Page
 
 Landing Page is the second project of The Odin Project's foundation track.
 
