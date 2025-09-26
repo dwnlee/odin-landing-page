@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: Roboto, sans-serif;
   margin: 0;
+
+  font-family: Roboto, sans-serif;
 }
 
 /* Header section */
@@ -13,20 +14,24 @@ ul {
   padding: 0;
   gap: 30px;
   margin-right: 230px;
+
+  color: #e5e7eb;
 }
 
 header {
-  /* temp color to show which section im working on */
-  background-color: lightcoral;
-  
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #1f2937;
 }
 
 h1 {
   margin-left: 230px;
   margin-right: auto;
+
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 /* Hero text section */
