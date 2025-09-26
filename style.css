@@ -1,0 +1,105 @@
+/* Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+/* Header section */
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 30px;
+  margin-right: 230px;
+}
+
+header {
+  /* temp color to show which section im working on */
+  background-color: lightcoral;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 230px;
+  margin-right: auto;
+}
+
+/* Hero text section */
+.hero {
+  /* temp color */
+  background-color: lightsalmon;
+
+  display: flex;
+  padding: 50px 0;
+}
+
+.hero-text {
+  margin-left: 230px;
+  margin-right: 100px;
+}
+
+.hero-image {
+  margin-right: 230px;
+}
+
+
+/* Some random information section */
+.info {
+  background-color: lightyellow;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  max-width: 190px;
+}
+
+/* Quote section */
+.quote {
+  background-color: lightgreen;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  width: 1000px;
+}
+
+.quote-author {
+  text-align: end;
+}
+
+/* Sign up button section */
+.sign-up {
+  background-color: lightblue;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Footer Section */
+footer {
+  background-color: lavender;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
