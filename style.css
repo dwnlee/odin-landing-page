@@ -133,16 +133,51 @@ figure {
   text-align: end;
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 /* Sign up button section */
 .sign-up {
-  background-color: lightblue;
-
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+}
+
+.sign-up-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 120px;
+  margin: 100px;
+
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.sign-up-hero {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.sign-up-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 3px;
+}
+
+.sign-up-right button {
+  cursor: pointer;
+  padding: 8px 30px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: bold;
+  background-color: #3882f6;
 }
 
 /* Footer Section */
